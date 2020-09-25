@@ -75,7 +75,7 @@ spec:
       description: The precise URL that was fetched by this Task
   steps:
     - name: clone
-      image: imsuper/tekton-git-init:v0.16.2
+      image: docker.io/imsuper/tekton-git-init:v0.16.2
       script: |
         #!/bin/sh
         set -eu -o pipefail

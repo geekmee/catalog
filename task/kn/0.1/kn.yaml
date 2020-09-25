@@ -15,7 +15,7 @@ spec:
   params:
   - name: kn-image
     description: kn CLI container image to run this task
-    default: imsuper/gcr.io-kn:latest
+    default: docker.io/imsuper/gcr.io-kn:latest
   - name: ARGS
     type: array
     description: kn CLI arguments to run
